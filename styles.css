@@ -663,3 +663,29 @@ body.locked{overflow:hidden}
   .album-actions{grid-template-columns:1fr}
   .album-action{min-height:180px;padding:22px}
 }
+
+/* ===== Corrección: mantener visibles los botones del Wedding Match ===== */
+.deck{
+  height:650px;
+  overflow:visible;
+}
+
+.swipe-actions{
+  position:relative;
+  z-index:20;
+  margin-top:28px;
+  padding-bottom:10px;
+}
+
+@media (max-width:420px){
+  .deck{
+    height:620px;
+  }
+}
+
+/* ===== Ajuste intereses largos ===== */
+.profile-overlay .badge{
+  max-width:100%;
+  white-space:normal;
+  line-height:1.2;
+}
