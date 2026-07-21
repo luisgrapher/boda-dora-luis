@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f2ee" />
+  <title>Dora & Luis · 26.07.2026</title>
+  <meta name="description" content="Experiencia digital de la boda de Dora & Luis." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <section class="splash-screen" id="splashScreen">
+    <div class="splash-overlay"></div>
+    <div class="splash-content">
+      <div class="splash-monogram">D&L</div>
+      <p class="splash-date">26 · JULIO · 2026</p>
+      <h1>Dora <span>&</span> Luis</h1>
+      <p class="splash-subtitle">Una noche para recordar</p>
+      <button class="enter-btn" id="enterExperience">Entrar a la experiencia</button>
+      <p class="splash-note">Fotos, recuerdos y una sorpresa para los solteros(as).</p>
+    </div>
+  </section>
+  <div class="noise"></div>
+
+  <header class="hero" id="inicio">
+    <nav class="topbar">
+      <div class="monogram">D&L</div>
+      <button class="ghost small" data-view="home">Inicio</button>
+    </nav>
+
+    <div class="hero-content app-home-hero">
+      <p class="eyebrow">EXPERIENCIA DIGITAL</p>
+      <h1>Dora <span>&</span> Luis</h1>
+      <p class="lead">Elige cómo quieres vivir esta noche.</p>
+      <div class="scroll-hint">Explora las opciones ↓</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="view active" id="view-home">
+      <div class="section-head">
+        <p class="eyebrow">ELIGE TU EXPERIENCIA</p>
+        <h2>Dos formas de vivir la boda</h2>
+        <p>Comparte tus recuerdos o descubre quiénes siguen oficialmente disponibles.</p>
+      </div>
+
+      <div class="home-grid">
+        <article class="feature-card album-card">
+          <div class="feature-icon">📸</div>
+          <div>
+            <p class="tag">ÁLBUM COMPARTIDO</p>
+            <h3>Comparte y revive la boda</h3>
+            <p>Sube tus fotos y videos, o descubre los recuerdos que todos están compartiendo.</p>
+          </div>
+          <button class="primary" data-view="album">Entrar al álbum</button>
+        </article>
+
+        <article class="feature-card singles-card">
+          <div class="feature-icon">💘</div>
+          <div>
+            <p class="tag">CLUB DE SOLTEROS(AS)</p>
+            <h3>Conoce a los disponibles</h3>
+            <p>Explora perfiles, descubre coincidencias y encuentra a esa persona durante la fiesta.</p>
+          </div>
+          <button class="primary dark" data-view="singles">Abrir Club</button>
+        </article>
+      </div>
+
+      <div class="quote">
+        “El amor ya triunfó para nosotros. Ahora quizá sea el turno de alguien más.”
+      </div>
+    </section>
+
+    <section class="view" id="view-album">
+      <button class="back" data-view="home">← Volver</button>
+
+      <div class="album-hero">
+        <div class="album-icon">📸</div>
+        <p class="eyebrow">ÁLBUM OFICIAL</p>
+        <h2>Comparte los momentos que nosotros quizá no alcancemos a ver</h2>
+        <p>Mientras estamos bailando, saludando o riendo con la familia, tú puedes capturar recuerdos que nos acompañarán toda la vida.</p>
+      </div>
+
+      <div class="album-actions">
+        <button class="album-action upload-action" onclick="openAlbumWithMessage('upload')">
+          <span class="album-action-icon">📤</span>
+          <div>
+            <h3>Compartir mis fotos</h3>
+            <p>Sube las fotos y videos que tomes durante la boda.</p>
+          </div>
+          <span class="album-action-arrow">↗</span>
+        </button>
+
+        <button class="album-action gallery-action" onclick="openAlbumWithMessage('gallery')">
+          <span class="album-action-icon">🖼️</span>
+          <div>
+            <h3>Ver el álbum</h3>
+            <p>Descubre las fotos que todos están compartiendo.</p>
+          </div>
+          <span class="album-action-arrow">↗</span>
+        </button>
+      </div>
+
+      <div class="album-note">
+        💛 Gracias por ayudarnos a conservar cada recuerdo.
+      </div>
+
+      <div class="album-help">
+        <strong>Para subir:</strong> abre el álbum, inicia sesión con Google si te lo solicita y pulsa <em>Añadir fotos</em>.
+      </div>
+    </section>
+
+    <section class="view" id="view-singles">
+      <button class="back" data-view="home">← Volver</button>
+      <div class="section-head compact">
+        <p class="eyebrow">SINGLES EDITION</p>
+        <h2>Wedding Match</h2>
+        <p><strong id="profileCountLabel">6 personas disponibles</strong><br>Aquí no prometemos el amor de tu vida... pero sí una buena conversación.</p>
+      </div>
+
+      <div class="filter-row" id="filterRow">
+        <button class="chip active" data-filter="todos">Todos</button>
+        <button class="chip" data-filter="hombre">Hombres</button>
+        <button class="chip" data-filter="mujer">Mujeres</button>
+      </div>
+
+      <div class="deck-wrap">
+        <div class="deck" id="deck"></div>
+        <div class="empty-state" id="emptyState">
+          <div class="empty-icon">🥂</div>
+          <h3>Has visto todos los perfiles</h3>
+          <p>Tal vez sea momento de ir a la pista de baile.</p>
+          <button class="secondary" id="restartBtn">Ver nuevamente</button>
+        </div>
+      </div>
+
+      <div class="swipe-actions" id="swipeActions">
+        <button class="round nope" id="nopeBtn" aria-label="Siguiente">✕</button>
+        <button class="round info" id="infoBtn" aria-label="Ver detalle">i</button>
+        <button class="round like" id="likeBtn" aria-label="Me interesa">♥</button>
+      </div>
+
+      <p class="privacy-note">Los perfiles deben publicarse únicamente con autorización de cada participante. No incluyas teléfonos ni datos sensibles.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="monogram">D&L</div>
+    <p>Hecho con amor para nuestra boda.</p>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
