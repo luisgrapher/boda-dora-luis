@@ -247,7 +247,8 @@ const PROFILES = [
     interests: ["🎶 Conciertos", "✈️ Viajar", "🌍 Aventuras espontáneas"],
     accent: "#a26e65", accent2: "#4b312d",
     weddingMatch: "Puede debatir contigo... pero prefiere reírse contigo. 😉⚖️",
-    image: "assets/perfiles/naydu.jpg"
+    image: "assets/perfiles/naydu.jpg",
+    imagePosition: "center 18%"
   },
   {
     name: "Melanie Flores", age: 0, ageText: "La edad es solo un número... 😉", gender: "mujer", table: "Mesa #10",
@@ -325,7 +326,7 @@ function createCard(p){
   el.setAttribute("data-name", p.name);
   el.innerHTML = `
     <div class="profile-main" style="--accent:${p.accent}; --accent2:${p.accent2}">
-      <div class="profile-image" style="background-image:url('${p.image}')"></div>
+      <div class="profile-image" style="background-image:url('${p.image}'); background-position:${p.imagePosition || 'center'}"></div>
       <div class="profile-gradient"></div>
 
       <div class="card-stamp stamp-like">ME GUSTA</div>
@@ -417,7 +418,7 @@ function showInfo(){
   const p = filtered[currentIndex];
   if(!p) return;
   openModal(`
-    <img class="modal-photo" src="${p.image}" alt="${p.name}">
+    <img class="modal-photo" src="${p.image}" alt="${p.name}" style="object-position:${p.imagePosition || 'center'}">
     <h3>${p.name}, ${p.ageText || p.age}</h3>
     <p><strong>${p.occupation}</strong> · ${p.table}</p>
     <p>“${p.quote}”</p>
