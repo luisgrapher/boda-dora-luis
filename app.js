@@ -34,7 +34,7 @@ const PROFILES = [
     image: "assets/perfiles/jhonathan.jpg"
   },
   {
-    name: "Rosario Vásquez", age: 30, gender: "mujer", table: "Mesa #6",
+    name: "Rosario Vásquez", age: 30, gender: "mujer", table: "Mesa #10",
     occupation: "Enfermera",
     quote: "¡Sé feliz hoy! Aunque solo sea por joder a los envidiosos.",
     interests: ["📚 Leer", "💃 Bailar", "✈️ Viajar"],
@@ -43,7 +43,7 @@ const PROFILES = [
     image: "assets/perfiles/rosario.jpg"
   },
   {
-    name: "Félix Balmaceda", age: 35, gender: "hombre", table: "Mesa #14",
+    name: "Félix Balmaceda", age: 35, gender: "hombre", table: "Mesa #10",
     occupation: "Supervisor de operaciones, tronchatodo y tu mariachi.",
     quote: "Tú tranquila, y yo nervioso, bebé.",
     interests: ["✈️ Viajar", "🎤 Cantar", "💃 Bailar"],
@@ -52,7 +52,7 @@ const PROFILES = [
     image: "assets/perfiles/felix.jpg"
   },
   {
-    name: "Pamela Montero", age: 33, ageText: "33 · Edad de Cristo", gender: "mujer", table: "Mesa #8",
+    name: "Pamela Montero", age: 33, ageText: "33 · Edad de Cristo", gender: "mujer", table: "Mesa #08",
     occupation: "Control de calidad (rubro pesquería).",
     quote: "En un mundo de cuerdos, el loco es el más feliz. 😋",
     interests: ["💼 Negocios", "🎌 Anime", "🍸 Tomar tragos", "🥳 Divertirse"],
@@ -61,7 +61,7 @@ const PROFILES = [
     image: "assets/perfiles/pamela.jpg"
   },
   {
-    name: "Jean Pierre Alfaro", age: 33, gender: "hombre", table: "Mesa #6",
+    name: "Jean Pierre Alfaro", age: 33, gender: "hombre", table: "Mesa #07",
     occupation: "Esclavo de la agroexportación.",
     quote: "Si vino a Ica y no tomó vino, entonces ¿para qué mrd vino? 🍷",
     interests: ["🏃 Runner", "✈️ Viajes", "🥾 Trekking", "💙 Alianza Lima"],
@@ -70,7 +70,7 @@ const PROFILES = [
     image: "assets/perfiles/jean_pierre.jpg"
   },
   {
-    name: "Yumiko Yogui", age: 21, gender: "mujer", table: "Mesa #3",
+    name: "Yumiko Yogui", age: 21, gender: "mujer", table: "Mesa #07",
     occupation: "Estudiante de Administración de Negocios Internacionales, bailarina de marinera norteña y emprendedora.",
     quote: "Mi carácter no es para princesos; es para saiyayines.",
     interests: ["💃 Bailar", "✈️ Viajar", "👗 Moda", "💄 Belleza"],
@@ -79,7 +79,7 @@ const PROFILES = [
     image: "assets/perfiles/yumiko.jpg"
   },
   {
-    name: "Wilbert Echevarría", age: 31, gender: "hombre", table: "Mesa #16",
+    name: "Wilbert Echevarría", age: 31, gender: "hombre", table: "Mesa #10",
     occupation: "Serenazgo",
     quote: "¡Arre porque arre... o oigaa!",
     interests: ["⚽ El fútbol", "🎵 La música", "❤️ El arte de hacer el amor"],
@@ -88,7 +88,7 @@ const PROFILES = [
     image: "assets/perfiles/wilbert.jpg"
   },
   {
-    name: "Fiorella Poves", age: 36, gender: "mujer", table: "Mesa #14",
+    name: "Fiorella Poves", age: 36, gender: "mujer", table: "Mesa #10",
     occupation: "Ingeniera",
     quote: "Somos lo que somos.",
     interests: ["✈️ Viajar", "💃 Bailar caporal", "⭐ Star Wars"],
@@ -106,7 +106,7 @@ const PROFILES = [
     image: "assets/perfiles/enzo.jpg"
   },
   {
-    name: "Estefany Murga", age: 36, gender: "mujer", table: "Mesa #5",
+    name: "Estefany Murga", age: 36, gender: "mujer", table: "Mesa #13",
     occupation: "Ingeniera electrónica",
     quote: "No busco impresionar; aun así, suele pasar. 😉",
     interests: ["👔 Vestir bien", "👩‍🍳 Cocinar", "🍷 Descubrir nuevos restaurantes con una buena conversación"],
@@ -115,7 +115,7 @@ const PROFILES = [
     image: "assets/perfiles/estefany.jpg"
   },
   {
-    name: "Renzo Ramírez", age: 30, gender: "hombre", table: "Mesa #3",
+    name: "Renzo Ramírez", age: 30, gender: "hombre", table: "Mesa #11",
     occupation: "Asesor de seguros en Interseguro.",
     quote: "La vida tiene riesgos... por suerte yo sé cómo cubrirlos. 😉",
     interests: ["🌴 Extrañar Piura... pero disfrutar Lima", "☕ Un buen café y una buena conversación", "⚽ El fútbol con amigos"],
@@ -124,7 +124,7 @@ const PROFILES = [
     image: "assets/perfiles/renzo.jpg"
   },
   {
-    name: "Miluska Guerra", age: 28, gender: "mujer", table: "Mesa #4",
+    name: "Miluska Guerra", age: 28, gender: "mujer", table: "Mesa #12",
     occupation: "Arquitecta.",
     quote: "Prometo no juzgar tu gusto musical... a menos que no bailes en la fiesta. 😏",
     interests: ["🏛️ Arquitectura social", "🏃 Gym, running y bailar salsa", "🍣 Makis + una buena película romántica"],
@@ -133,7 +133,7 @@ const PROFILES = [
     image: "assets/perfiles/miluska.jpg"
   },
   {
-    name: "Edgar Soto", age: 45, ageText: "45 años · Con el alma de 18", gender: "hombre", table: "Mesa #14",
+    name: "Edgar Soto", age: 45, ageText: "45 años · Con el alma de 18", gender: "hombre", table: "Mesa #10",
     occupation: "Coordinador O&M.",
     quote: "Trabajar en equipo es genial... hasta que aparece el que no hace nada. 🤣",
     interests: ["💻 Tecnología", "📚 Aprendizaje continuo", "🥃 ¡La chupeta!"],
@@ -142,7 +142,7 @@ const PROFILES = [
     image: "assets/perfiles/edgar.jpg"
   },
   {
-    name: "Pierina Britany", age: 32, gender: "mujer", table: "Mesa #10",
+    name: "Pierina Herrera", age: 32, gender: "mujer", table: "Mesa #04",
     occupation: "Ingeniera Industrial.",
     quote: "Soy la testigo de la boda… así que vengo con recomendación incluida. 😉",
     interests: ["💃 Bailar", "☕ Café con buenas conversaciones", "✈️ Viajar"],
@@ -151,7 +151,7 @@ const PROFILES = [
     image: "assets/perfiles/pierina.jpg"
   },
   {
-    name: "Rogger Portuguez", age: 0, ageText: "Edad: Un misterio. 😉", gender: "hombre", table: "Mesa #5",
+    name: "Rogger Portuguez", age: 0, ageText: "Edad: Un misterio. 😉", gender: "hombre", table: "Mesa #09",
     occupation: "Ingeniero y empresario.",
     quote: "¡Tranquilidad!",
     interests: ["🐶 Los perros", "🎸 La música y una buena guitarra", "🍻 Compartir con los amigos", "💼 Emprender nuevos proyectos"],
@@ -160,7 +160,7 @@ const PROFILES = [
     image: "assets/perfiles/rogger.jpg"
   },
   {
-    name: "Nicole Pérez", age: 24, gender: "mujer", table: "Mesa #10",
+    name: "Nicole Pérez", age: 24, gender: "mujer", table: "Mesa #12",
     occupation: "Obstetra.",
     quote: "Tengo cara seria, pero me río de cualquier cosa, así que puedes hacer malos chistes. 😂",
     interests: ["✈️ Viajar y conocer nuevos lugares", "🎬 Ir al cine y escuchar buena música", "💬 Reír y conversar de un poco de todo"],
@@ -169,7 +169,7 @@ const PROFILES = [
     image: "assets/perfiles/nicole.jpg"
   },
   {
-    name: "Ricardo Quispe", age: 25, gender: "hombre", table: "Mesa #5",
+    name: "Ricardo Quispe", age: 25, gender: "hombre", table: "Mesa #13",
     occupation: "Encantador de bandidas. 😎",
     quote: "¡Sáquenme de F1! 😂",
     interests: ["⚽ El fútbol", "🎮 PlayStation", "🐐 Messi"],
@@ -178,7 +178,7 @@ const PROFILES = [
     image: "assets/perfiles/ricardo.jpg"
   },
   {
-    name: "Stefany Cavero", age: 32, gender: "mujer", table: "Mesa #10",
+    name: "Stefany Cavero", age: 32, gender: "mujer", table: "Mesa #08",
     occupation: "Obstetra.",
     quote: "¡Hay que ser felices, no perfectos! Así que sonríe hoy... mañana te puede faltar un diente. 😉🤣",
     interests: ["🤝 El respeto", "🌱 La humildad", "😜 Un poco de locura disfrazada de cordura"],
@@ -196,7 +196,7 @@ const PROFILES = [
     image: "assets/perfiles/eder.jpg"
   },
   {
-    name: "Ana Alegre", age: 0, ageText: "Edad: Es un misterio. 😉", gender: "mujer", table: "Mesa #14",
+    name: "Ana Alegre", age: 0, ageText: "Edad: Es un misterio. 😉", gender: "mujer", table: "Mesa #11",
     occupation: "Trabaja en un banco.",
     quote: "Quien vino y no bebió vino... ¿a qué vino? 🍷",
     interests: ["✈️ Viajar", "🍽️ Descubrir buena comida", "🗣️ Tener buenas conversaciones"],
@@ -214,7 +214,7 @@ const PROFILES = [
     image: "assets/perfiles/christian.jpg"
   },
   {
-    name: "Maritza Sánchez", age: 32, gender: "mujer", table: "Mesa #2",
+    name: "Maritza Sánchez", age: 32, gender: "mujer", table: "Mesa #13",
     occupation: "Administradora.",
     quote: "¿Qué signo eres? ¿Ascendente en...? ¿Y tu luna? 🌙✨",
     interests: ["💰 La plata", "💵 Más plata", "🤑 Y, por supuesto... la plata"],
@@ -223,7 +223,7 @@ const PROFILES = [
     image: "assets/perfiles/maritza.jpg"
   },
   {
-    name: "Julinho Chiroque", age: 31, gender: "hombre", table: "Mesa #6",
+    name: "Julinho Chiroque", age: 31, gender: "hombre", table: "Mesa #06",
     occupation: "Empresario.",
     quote: "Vine a celebrar a los novios… pero si sale un buen match, no me quejo. 😂",
     interests: ["⚽ Fútbol", "✈️ Viajar", "🚀 Retos y nuevas experiencias"],
@@ -232,7 +232,7 @@ const PROFILES = [
     image: "assets/perfiles/julinho.png"
   },
   {
-    name: "Melissa Olivares", age: 36, ageText: "36... pero no los aparenta. 😉", gender: "mujer", table: "Mesa #4",
+    name: "Melissa Olivares", age: 36, ageText: "36... pero no los aparenta. 😉", gender: "mujer", table: "Mesa #08",
     occupation: "Recursos Humanos. Aunque muchos dicen que parece más psicóloga que administradora. 🤭",
     quote: "Quiero mariposas en el estómago... no dudas en la cabeza. 🦋",
     interests: ["✈️ Conocer nuevos lugares", "👨‍👩‍👧‍👦 Compartir con su familia y sus hijos", "💼 Emprender nuevos proyectos", "❤️ Construir algo serio"],
@@ -241,7 +241,7 @@ const PROFILES = [
     image: "assets/perfiles/melissa.jpg"
   },
   {
-    name: "Naydu Vargas", age: 22, gender: "mujer", table: "Mesa #9",
+    name: "Naydu Vargas", age: 22, gender: "mujer", table: "Mesa #06",
     occupation: "Estudiante de Derecho. ⚖️",
     quote: "No garantizo química, pero sí buenas conversaciones y malos pasos de baile. 😂🕺",
     interests: ["🎶 Conciertos", "✈️ Viajar", "🌍 Aventuras espontáneas"],
@@ -251,7 +251,7 @@ const PROFILES = [
     imagePosition: "center 18%"
   },
   {
-    name: "Melanie Flores", age: 0, ageText: "La edad es solo un número... 😉", gender: "mujer", table: "Mesa #10",
+    name: "Melanie Flores", age: 0, ageText: "La edad es solo un número... 😉", gender: "mujer", table: "Mesa #07",
     occupation: "Obstetra.",
     quote: "Las mejores historias empiezan con un 'Hola'... el resto se escribe solo. ✨",
     interests: ["☕ Conversaciones tranquilas", "🌅 Descubrir nuevos lugares", "💙 Compartir momentos con las personas que quiere"],
