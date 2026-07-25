@@ -25,7 +25,7 @@ const CONFIG = {
 
 const PROFILES = [
   {
-    name: "Jhonathan Vasquez", age: 27, gender: "hombre", table: "Mesa #5",
+    name: "Jhonathan Vasquez", age: 27, gender: "hombre", table: "Mesa #13",
     occupation: "Técnico motorizado, peleador de Jiu-Jitsu (BJJ/MMA).",
     quote: "La hora es la hora, porque antes de la hora no es la hora y después de la hora tampoco es la hora.",
     interests: ["✈️ Viajar", "🥋 MMA", "🏔️ Deportes extremos", "🏍️ Motos", "⚽ Fútbol"],
@@ -97,7 +97,7 @@ const PROFILES = [
     image: "assets/perfiles/fiorella.jpg"
   },
   {
-    name: "Enzo Donayre", age: 24, gender: "hombre", table: "Mesa #8",
+    name: "Enzo Donayre", age: 24, gender: "hombre", table: "Mesa #04",
     occupation: "Estudiante de Ingeniería Industrial.",
     quote: "Mi plan de vida: optimizar procesos, aprobar cursos y celebrar los goles de la 'U'. 💛❤️",
     interests: ["⚽ Fútbol", "📚 Aprendizaje continuo y desarrollo profesional", "🎵 Música"],
@@ -187,7 +187,7 @@ const PROFILES = [
     image: "assets/perfiles/stefany_cavero.jpg"
   },
   {
-    name: "Eder Sepulveda", age: 0, ageText: "Edad: Un misterio. 😉", gender: "hombre", table: "Mesa #3",
+    name: "Eder Sepulveda", age: 0, ageText: "Edad: Un misterio. 😉", gender: "hombre", table: "Mesa #12",
     occupation: "Emprendedor de corazón y amante de las buenas conversaciones.",
     quote: "La vida sabe mejor con un buen café y una buena conversación. ☕",
     interests: ["✈️ Descubrir nuevos países", "☕ El café de especialidad", "⛪ Compartir su fe", "🗣️ Conversaciones que duran horas"],
@@ -205,7 +205,7 @@ const PROFILES = [
     image: "assets/perfiles/ana.jpg"
   },
   {
-    name: "Christian Garcia", age: 0, ageText: "Edad: Un misterio. 😉", gender: "hombre", table: "Mesa #4",
+    name: "Christian Garcia", age: 0, ageText: "Edad: Un misterio. 😉", gender: "hombre", table: "Mesa #10",
     occupation: "Coordinador logístico en telecomunicaciones.",
     quote: "No organizo problemas... organizo las mejores fiestas. 🎉",
     interests: ["💃 Bailar de todo", "🎉 Organizar reuniones y celebraciones", "🤝 Compartir con los amigos", "⚡ Mantener siempre la buena energía"],
@@ -258,6 +258,26 @@ const PROFILES = [
     accent: "#aa776c", accent2: "#50352f",
     weddingMatch: "Tiene una mirada tranquila... pero quién sabe si también sea la que te robe el corazón. 😉",
     image: "assets/perfiles/melanie.jpg"
+  },
+  {
+    name: "Carmen Núñez", age: 35, gender: "mujer", table: "Mesa #09",
+    occupation: "Futura ingeniera ambiental. 🌿",
+    quote: "Si no hay chisme... no me llamen. 🤭☕",
+    interests: ["💃 Bailar", "✈️ Viajar", "🫖 Chismear"],
+    accent: "#8d6b68", accent2: "#443231",
+    weddingMatch: "Si te hace una pregunta... piénsalo bien, porque probablemente ya conoce la mitad de la respuesta. 😂",
+    image: "assets/perfiles/carmen.jpg",
+    imagePosition: "center 18%"
+  },
+  {
+    name: "Juan Diego Pacheco", age: 31, gender: "hombre", table: "Mesa #04",
+    occupation: "Abogado. ⚖️",
+    quote: "Y no va cher. 😎",
+    interests: ["⚽ Fútbol", "⚡ Harry Potter", "🐉 Juego de Tronos"],
+    accent: "#59656f", accent2: "#293139",
+    weddingMatch: "Dicen que defiende buenas causas... pero si hablamos de Harry Potter, seguro también tiene bien defendida su casa de Hogwarts. ⚡😂",
+    image: "assets/perfiles/juan_diego.jpg",
+    imagePosition: "center 35%"
   }
 ];
 
